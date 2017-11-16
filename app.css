@@ -1,0 +1,66 @@
+h2 {
+    text-align: center;
+    color: green;
+}
+body {
+    text-align: center;
+    font-family: 'Fanwood Text', serif;
+    Font-size: 40px;  
+    background-color: rgb(255,198, 30)  
+}
+p {
+    text-align: center;
+    font-family: 'Fanwood Text', serif;
+    Font-size: 40px;    
+}
+h1 {
+    text-align: center;
+    color: green;
+}
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 9px 17px;
+    border: 5px solid #ff8400;
+    border-radius: 8px;
+    background: #ff4aff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff4aff), to(#00f79c));
+    background: -moz-linear-gradient(top, #ff4aff, #00f79c);
+    background: linear-gradient(to bottom, #ff4aff, #00f79c);
+    text-shadow: #591717 1px 1px 1px;
+    font: normal normal bold 18px verdana;
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:hover,
+.button:focus {
+    border: 5px solid #ff9800;
+    background: #ff59ff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff59ff), to(#00ffbb));
+    background: -moz-linear-gradient(top, #ff59ff, #00ffbb);
+    background: linear-gradient(to bottom, #ff59ff, #00ffbb);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #992c99;
+    background: -webkit-gradient(linear, left top, left bottom, from(#992c99), to(#00f79c));
+    background: -moz-linear-gradient(top, #992c99, #00f79c);
+    background: linear-gradient(to bottom, #992c99, #00f79c);
+}
+.button:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACSElEQVRIiaWUTWsTYRRGz9NuRLCdZFEKJZNp4kqyE6SICCWEUgRLf58/wJUuBOkihm6L69CVaTITUFemkVqLiz4u8mEynUlSvMvhnfPce+bOu849qhJGT4obG48GP4eDVd9Zuwe8BrSQWtVS+HjV93QPeFNiGwC7h13v9JOL/w6YdC7YmjttJ9j7y0IWKpp0zhhu+5Pts3Fv4Sq6cgNmtegf/NhwaPsMAVKE1KyWwkoeJ1PRVIvYgin8qNtPrgF2w3Ig+CjpOaMDubruBEw7Z/RBzTx8UuOQE9DeCOIedqPTT77kKprbFk3hx2k4QDeJLw2HsFjXdIJlWvJqma61lJaF8Gop3K6Wo2LGJK9sn9mQ3i7NOZ/Zlm4/uUrDkZpI18BhJ+79yJjkRNLeeJIedn29EARvJJ7OwI+6/eRXDrwG7AD7xSB4Pxhe/p6cuRwOb4LN4B3wUlIJKTAUVC1HAXBi+ypPC1ITVPPMc4nPiyZBujIcC6BSLgc2f7pJnA2XahiMz4GHQtF4PfJCNpBuu3HvKvcuSmnBuA00fMsDiZakyTpmhkwnXQifaJHbmIOLJP4KsFsqRxItGIXk6coMSGtBPgfqnTj+PqdhFHK6TNfcn5zWgtzOggN0+3HPZt94cv88A07S/8l0grQWjZwfdMZa8mqZLmV2js8x9U5yt/OsqoRhBMrUpQx426ZxsSI8FXJnu9aLQfAW6cXoHnFbcHCRxN/uAwcYDIeXhc3ND8BrUAHYEeyoEkYVoCl8A6trWTLJKega0/gL1053NPJZCWcAAAAASUVORK5CYII=") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+
+<link href="https://fonts.googleapis.com/css?family=Fanwood+Text" rel="stylesheet">
